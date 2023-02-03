@@ -1,22 +1,21 @@
-package com.example.demo.entities;
+package com.example.demo.UserSystem.entities;
 
 import jakarta.persistence.*;
 
-import java.util.Set;
-
-@Entity(name = "categories")
-public class Category {
+@Entity(name = "color")
+public class Color {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true, length = 100)
     private String name;
 
-    public Category() {}
+    public Color() {
+    }
 
-    public Category(String name) {
+    public Color(String name) {
         this.name = name;
     }
 

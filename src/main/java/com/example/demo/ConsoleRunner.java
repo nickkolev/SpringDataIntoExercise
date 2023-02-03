@@ -1,21 +1,20 @@
 package com.example.demo;
 
-import com.example.demo.entities.Author;
-import com.example.demo.entities.Book;
-import com.example.demo.repositories.AuthorRepository;
-import com.example.demo.repositories.BookRepository;
-import com.example.demo.services.SeedService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
-import java.time.LocalDate;
-import java.util.Comparator;
-import java.util.List;
 
 @Component
 public class ConsoleRunner implements CommandLineRunner {
 
+    @Override
+    public void run(String... args) throws Exception {
+
+    }
+
+
+    // Bookshop System
+
+    /*
     private final SeedService seedService;
 
     private final BookRepository bookRepository;
@@ -81,4 +80,5 @@ public class ConsoleRunner implements CommandLineRunner {
                 })
                 .forEach(e -> System.out.printf("%s - %s - %d copies%n", e.getTitle(), e.getReleaseDate(), e.getCopies()));
     }
+     */
 }

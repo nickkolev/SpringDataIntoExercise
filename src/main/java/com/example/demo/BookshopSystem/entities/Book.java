@@ -1,7 +1,7 @@
-package com.example.demo.entities;
+package com.example.demo.BookshopSystem.entities;
 
-import com.example.demo.enums.AgeRestriction;
-import com.example.demo.enums.EditionType;
+import com.example.demo.BookshopSystem.enums.AgeRestriction;
+import com.example.demo.BookshopSystem.enums.EditionType;
 import jakarta.persistence.*;
 
 import java.math.BigDecimal;

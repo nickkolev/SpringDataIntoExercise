@@ -1,6 +1,6 @@
-package com.example.demo.repositories;
+package com.example.demo.BookshopSystem.repositories;
 
-import com.example.demo.entities.Author;
+import com.example.demo.BookshopSystem.entities.Author;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

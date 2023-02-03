@@ -1,17 +1,16 @@
-package com.example.demo.services;
+package com.example.demo.BookshopSystem.services;
 
-import com.example.demo.entities.Author;
-import com.example.demo.entities.Book;
-import com.example.demo.entities.Category;
-import com.example.demo.enums.AgeRestriction;
-import com.example.demo.enums.EditionType;
-import com.example.demo.repositories.AuthorRepository;
-import com.example.demo.repositories.BookRepository;
-import com.example.demo.repositories.CategoryRepository;
+import com.example.demo.BookshopSystem.entities.Author;
+import com.example.demo.BookshopSystem.entities.Book;
+import com.example.demo.BookshopSystem.entities.Category;
+import com.example.demo.BookshopSystem.enums.AgeRestriction;
+import com.example.demo.BookshopSystem.enums.EditionType;
+import com.example.demo.BookshopSystem.repositories.AuthorRepository;
+import com.example.demo.BookshopSystem.repositories.BookRepository;
+import com.example.demo.BookshopSystem.repositories.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.accessibility.AccessibleEditableText;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.nio.file.Files;

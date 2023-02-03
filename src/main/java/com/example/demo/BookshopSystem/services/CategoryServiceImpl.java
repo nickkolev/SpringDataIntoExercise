@@ -1,7 +1,7 @@
-package com.example.demo.services;
+package com.example.demo.BookshopSystem.services;
 
-import com.example.demo.entities.Category;
-import com.example.demo.repositories.CategoryRepository;
+import com.example.demo.BookshopSystem.entities.Category;
+import com.example.demo.BookshopSystem.repositories.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
